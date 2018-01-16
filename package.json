@@ -7,6 +7,7 @@
   "author": "Martino Fornasa <mf@fornasa.it>",
   "license": "MIT",
   "dependencies": {
-    "react": "^15.3.2"
+    "react": "^15.3.2",
+    "patternfly": "~3.17.0"
   }
 }

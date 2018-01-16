@@ -11,7 +11,7 @@ RUN set -ex && \
       # sonar-scanner
       openjdk8-jre
 
-COPY .npmrc package.json yarn.lock /app/
+COPY package.json yarn.lock /app/
 RUN set -ex && \
     yarn install --pure-lockfile && \
     yarn cache clean && \

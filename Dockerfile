@@ -15,7 +15,7 @@ COPY package.json yarn.lock /app/
 RUN set -ex && \
     yarn install --pure-lockfile && \
     yarn cache clean && \
-    rm .npmrc && \
+    #rm .npmrc && \
     apk del g++ make python
 COPY ./ /app/
 
